@@ -1,1 +1,12 @@
+Image Classification Problem
 
+ We have used transfer learning concept in our model and we have chosed EfficientNetB3 pretrained model. 
+ This pretrained model achieve 100% accuracy in training phase and 99% accuracy in both validation and testing phases with losses 0.1 in all of training, validation, and testing phases.
+ This model has been fitted in just 15 epochs.
+
+Image Segmentation Problem
+ 
+ We have used U-Net Structure for solve this problem.
+ We have used Dice coefficient and IoU coefficient as a metric for our model.
+ This model achieve 90% in dice coefficient and 83.6 in iou coefficient in training phase and 89.6% in dice coefficient and 81.5 in iou coefficient in testing phase. 
+ This model has been fitted in 120 epochs.
